@@ -1,8 +1,8 @@
 :root {
     --bg-color: #000000;
     --text-color: #39ff14;
-    --text-secondary: #00ff00;
-    --text-muted: #888888;
+    --text-secondary: #dddddd;
+    --text-muted: #818181;
     --border-color: #333333;
     --font-family: 'JetBrains Mono', 'Courier New', Courier, monospace;
 }
