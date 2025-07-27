@@ -33,12 +33,12 @@ document.addEventListener('DOMContentLoaded', function() {
     function displayWelcomeMessage() {
         const welcomeText = `gatere@portfolio:~$ welcome
 
-Hi, I'm Mark Gatere, a Software & AI Engineer.
+Hi, I'm Vinay Patle, a Software & AI Engineer.
 
 Welcome to my interactive 'AI powered' portfolio terminal!
 Type 'help' to see available commands.
 
-gatere@portfolio:~$ `;
+patle@portfolio:~$ `;
         
         appendOutput(welcomeText, 'output-text');
     }
@@ -66,7 +66,7 @@ gatere@portfolio:~$ `;
         isProcessing = true;
         
         // Echo command
-        appendOutput(`gatere@portfolio:~$ ${command}`, 'command-echo');
+        appendOutput(`patle@portfolio:~$ ${command}`, 'command-echo');
         
         // Add to history
         if (commandHistory[commandHistory.length - 1] !== command) {
@@ -126,7 +126,7 @@ gatere@portfolio:~$ `;
         
         // Add prompt for next command
         setTimeout(() => {
-            appendOutput('gatere@portfolio:~$ ', 'command-echo');
+            appendOutput('patle@portfolio:~$ ', 'command-echo');
         }, 200);
     }
 
@@ -155,7 +155,7 @@ Type any command to get started!`;
         const aboutText = `About Mark Gatere
 ================
 
-Hi! I'm Mark Gatere, a passionate Software & AI Engineer with expertise in 
+Hi! I'm Vinay Patle, a passionate Software & AI Engineer with expertise in 
 building innovative solutions and interactive systems.
 
 I specialize in:
@@ -280,11 +280,11 @@ Freelance Developer
         const contactText = `Contact Information
 ==================
 
-📧 Email: mark.gatere@example.com
+📧 Email:vinay.patle@portfolo.com
 🌐 Website: https://gateremark.me
-💼 LinkedIn: linkedin.com/in/markgatere
-🐙 GitHub: github.com/markgatere
-🐦 Twitter: @markgatere
+💼 LinkedIn: linkedin.com/in/vinaypatle
+🐙 GitHub: github.com/vinaypatle
+🐦 Twitter: @vinaypatle
 
 📍 Location: Available for remote work worldwide
 🕒 Timezone: UTC+3 (EAT)
