@@ -10,45 +10,71 @@
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div id="terminal-container">
-        <header id="terminal-header">
-            <h1 id="interactive-card">Mark Gatere</h1>
-            <p id="subtitle">Software Engineer</p>
-        </header>
-        
-        <div id="command-bar">
-            <span class="command-item">help</span>
-            <span class="separator">|</span>
-            <span class="command-item">about</span>
-            <span class="separator">|</span>
-            <span class="command-item">projects</span>
-            <span class="separator">|</span>
-            <span class="command-item">skills</span>
-            <span class="separator">|</span>
-            <span class="command-item">experience</span>
-            <span class="separator">|</span>
-            <span class="command-item">contact</span>
-            <span class="separator">|</span>
-            <span class="command-item">education</span>
-            <span class="separator">|</span>
-            <span class="command-item">certifications</span>
-            <span class="separator">|</span>
-            <span class="command-item">leadership</span>
-            <span class="separator">|</span>
-            <span class="command-item">sudo</span>
-            <span class="separator">|</span>
-            <span class="command-item">clear</span>
+    <div id="main-container">
+        <!-- Left side - 3D Card Section -->
+        <div id="card-section">
+            <div id="card-header">
+                <h1 id="name-title">Mark Gatere</h1>
+                <p id="subtitle">Software Engineer</p>
+            </div>
+            
+            <div id="interactive-card">
+                <div class="card-container">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="card-content">
+                                <div class="profile-image">
+                                    <div class="image-placeholder">
+                                        <div class="avatar-icon">👤</div>
+                                    </div>
+                                </div>
+                                <div class="card-info">
+                                    <h3>gateremark</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-label">[Interactive 3D Card]</div>
+            </div>
         </div>
 
-        <div id="terminal-output" role="log"></div>
-        
-        <div id="terminal-input-line">
-            <span class="prompt">gatere@portfolio:~$</span>
-            <input type="text" id="terminal-input" autocomplete="off" spellcheck="false" />
-            <span id="cursor">█</span>
+        <!-- Right side - Terminal Section -->
+        <div id="terminal-section">
+            <div id="command-bar">
+                <span class="command-item">help</span>
+                <span class="separator">|</span>
+                <span class="command-item">about</span>
+                <span class="separator">|</span>
+                <span class="command-item">projects</span>
+                <span class="separator">|</span>
+                <span class="command-item">skills</span>
+                <span class="separator">|</span>
+                <span class="command-item">experience</span>
+                <span class="separator">|</span>
+                <span class="command-item">contact</span>
+                <span class="separator">|</span>
+                <span class="command-item">education</span>
+                <span class="separator">|</span>
+                <span class="command-item">certifications</span>
+                <span class="separator">|</span>
+                <span class="command-item">leadership</span>
+                <span class="separator">|</span>
+                <span class="command-item">sudo</span>
+                <span class="separator">|</span>
+                <span class="command-item">clear</span>
+            </div>
+
+            <div id="terminal-output" role="log"></div>
+            
+            <div id="terminal-input-line">
+                <span class="prompt">gatere@portfolio:~$</span>
+                <input type="text" id="terminal-input" autocomplete="off" spellcheck="false" />
+                <span id="cursor">█</span>
+            </div>
+            
+            <div id="timestamp"></div>
         </div>
-        
-        <div id="timestamp"></div>
     </div>
 
     <noscript>
